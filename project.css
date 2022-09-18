@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    background-color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    text-decoration: none;
+}
+/* navbar */
+nav{
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9vh;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 40px;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+}
+
+.navRight a{
+    background-color: #2a2e54;
+    margin-right: 40px;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    
+}
+/* container1 */
+.container{
+    width: 400px;
+    height: 550px;
+    margin: 50px auto;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.project-name input, .project-name input, .date input, .upload input{
+    height: 35px;
+    background-color: #ffffff;
+    width: 100%;
+    border: none;
+    box-shadow: 2px 5px 2px rgb(185, 185, 185);
+    border-radius: 5px
+}
+
+.container form div{
+    margin-top: 5px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    resize: none;
+    background-color: #ffffff;
+    margin: 5px auto;
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(185, 185, 185);
+    border-radius: 4px
+}
+
+form div input{
+    margin-bottom: 15px;
+}
+
+.checkbox{
+    display: flex;
+}
+
+.container .button-position{
+    text-align: end;
+}
+
+.container button{
+    background-color: #2a2e54;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    text-align: end;
+}
+
+/* container2 */
+.container2{
+    margin-top: 60px;
+    background-color: #ffffff;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.container2 h1{
+    margin: auto;
+    text-align: center;
+}
+
+.container2 .position{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container2 div div{
+    margin-right: 100px;
+}
+
+
+/* content */
+.content-main{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.content-main div.content{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(172, 170, 170);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.content-main div.content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-main div.content h2{
+    margin-top: 10px;
+}
+
+.content-main div.content p{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.container2 i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    font-size: 30px;
+
+}
+
+
+.content-main div.content .button-left{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 49%;
+    cursor: pointer;
+}
+
+.content-main div.content .button-right{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 49%;
+    cursor: pointer;
+}

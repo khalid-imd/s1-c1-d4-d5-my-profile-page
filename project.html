@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navLeft">
+            <ul>
+                <li>
+                    <img src="https://dumbways.id/assets/images/brandred.png" alt="dumbwaysLogo" class="logoDumbways"
+                        width="50px">
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="project.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navRight">
+            <a href="contactMe.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="container1">
+        <div class="container">
+            <h1>ADD MY PROJECT</h1>
+    
+            <form onsubmit="submitProject(event)">
+                <div class="project-name">
+                    <label for="project">Project Name</label>
+                    <input type="text" id="project-name">
+                </div>
+                <div class="date">
+                    <div>
+                        <label for="start-date">Start Date</label>
+                        <input type="date" name="" id="start-date">
+                    </div>
+                    <div>
+                        <label for="end-date">End Date</label>
+                        <input type="date" name="" id="end-date">
+                    </div>
+                </div>
+                <div>
+                    <label for="desctiption">Description</label>
+                    <textarea name="" id="desctiption" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div>
+                    <label for="checkbox">Technologies</label>
+                    <div id="checkbox">
+                        <input type="checkbox" name="" id="vue-js" value="vuejs"></i>
+                        <label for="vue-js">vue Js</label>
+                        <input type="checkbox" name="" id="angular-js" value="angularjs">
+                        <label for="angular-js">angular Js</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="react-js" value="reactjs">
+                        <label for="react-js">React Js</label>
+                        <input type="checkbox" name="" id="npm-js" value="npmjs">
+                        <label for="npm-Js">npmjs</label>
+                    </div>
+                </div>
+                <div class="upload">
+                    <label for="upload">Upload File</label>
+                    <input type="file" id="upload">
+                </div>
+                <div class="button-position">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container2">
+        <h1>MY PROJECT</h1>
+        <div class="content-main" id="content-main">
+                <div class="content">
+                    <a href="detail.html">
+                        <img src="https://akcdn.detik.net.id/visual/2022/06/30/anime-spy-x-family-anya-forger_169.jpeg?w=650"
+                        alt="image" id="content">
+                        <h2>Dumbways Mobile App - 2022</h2>
+                        <h4>Duration:</h4>
+                        <h4>Technologies: </h4>
+                        <p>App that used for dumbways student, it was deployed and can downloaded on playstore. Happ download.
+                        </p>
+                        <div>
+                            <i class="ri-npmjs-fill"></i>
+                            <i class="ri-reactjs-line"></i>
+                            <i class="ri-angularjs-fill"></i>
+                        </div>
+                        <button class="button-left">edit</button>
+                        <button class="button-right">delete</button>
+                    </a>
+                </div>
+                <div class="content">
+                    <img src="https://akcdn.detik.net.id/visual/2022/06/30/anime-spy-x-family-anya-forger_169.jpeg?w=650"
+                        alt="image" id="content">
+                    <h2>Dumbways Mobile App - 2022</h2>
+                    <h4>Duration:</h4>
+                    <h4>Technologies: </h4>
+                    <p>App that used for dumbways student, it was deployed and can downloaded on playstore. Happ download.
+                    </p>
+                    <div>
+                        <i class="ri-npmjs-fill"></i>
+                        <i class="ri-reactjs-line"></i>
+                        <i class="ri-angularjs-fill"></i>
+                    </div>
+                    <button class="button-left">edit</button>
+                    <button class="button-right">delete</button>
+                </div>
+        </div>
+        <script src="project.js"></script>
+</body>
+
+</html>
